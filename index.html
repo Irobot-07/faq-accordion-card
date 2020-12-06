@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body>
+  <div class="top">
+    <div class="mobile">
+      <img class="mobile-image" src="./images/illustration-woman-online-mobile.svg" alt="women-pic">
+      <img class="mobile-pattern" src="./images/bg-pattern-mobile.svg" alt="women-pattern">
+    </div>
+    <div class="card">
+      <div class="desktop">
+        <div class="image">
+          <img class="desktop-image" src="./images/illustration-woman-online-desktop.svg" alt="women-pic">
+        </div>
+        <img class="desktop-box" src="./images/illustration-box-desktop.svg">
+      </div>
+      <div class="main">
+        <h1>FAQ</h1>
+        <div class="faqs">
+          <div class="faq">
+            <button id="que1" onclick="expand(1)" class="question">How many team members can I
+              invite?
+              <img id="arrow1" class="arrow" alt="arrow" src="./images/icon-arrow-down.svg">
+            </button>
+            <p id="ans1" class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on
+              team members for the Premium plan.</p>
+          </div>
+          <div class="faq">
+            <button id="que2" onclick="expand(2)" class="question">What is the maximum file upload
+              size?
+              <img id="arrow2" class="arrow" alt="arrow" src="./images/icon-arrow-down.svg">
+            </button>
+            <p id="ans2" class="answer">No more than 2GB. All files in your account must fit your allotted
+              storage space.</p>
+          </div>
+          <div class="faq">
+            <button id="que3" onclick="expand(3)" class="question">How do I reset my password?
+              <img id="arrow3" class="arrow" alt="arrow" src="./images/icon-arrow-down.svg">
+            </button>
+            <p id="ans3" class="answer">Click “Forgot password” from the login page or “Change password” from your
+              profile page. A
+              reset link will be emailed to you.
+            </p>
+          </div>
+          <div class="faq">
+            <button id="que4" onclick="expand(4)" class="question">Can I cancel my subscription?
+              <img id="arrow4" class="arrow" alt="arrow" src="./images/icon-arrow-down.svg">
+            </button>
+            <p id="ans4" class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+          <div class="faq">
+            <button id="que5" onclick="expand(5)" class="question">Do you provide additional support?
+              <img id="arrow5" class="arrow" alt="arrow" src="./images/icon-arrow-down.svg">
+            </button>
+            <p id="ans5" class="answer">Chat and email support is available 24/7. Phone lines are open during normal
+              business
+              hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
